@@ -4,3 +4,9 @@ export interface User {
   email: string;
   phone: string;
 }
+
+export interface ExtendedUser extends User {
+  completed: boolean;
+  title: string;
+  todoID: number;
+}
